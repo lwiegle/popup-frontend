@@ -1,0 +1,56 @@
+h1 {
+    font-size: 5em;
+    color: #009999;
+    font-family: Helvetica;
+    text-align: left;
+}
+
+p {
+    font-size: 2em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+/* don't style the div, though. create a class instead */
+
+div {
+    border-color: #FF9900;
+    border-width: 2px;
+    border-style: solid;
+    /* border-radius: 9px; */ 
+    background: #FF9900;
+    /* height: 75px;
+    width: 200px; */ 
+    text-align: center;
+    
+}
+
+.button {
+    font-size: 2em;
+    text-align: center;
+    line-height: 10px;
+    color: #ffffff;
+    
+}
+
+    div:hover {
+    /* background-color: #CC6600; */
+} 
+
+a:hover {
+    opacity: .5;
+}
+
+.social_icons {
+    margin: 10px;
+    text-align: center;
+    
+    
+}
+
+div:social_links {
+    background-color: #FF9900;
+}
+
